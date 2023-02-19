@@ -10,3 +10,9 @@ This comes with a simple GUI where the user will be able to select the length
 and generate the password.
 
 For the GUI, Python's Tkinter module is used.
+
+To run the program:
+* install all the requirements
+* download the main.py file
+* navigate to the downloaded folder in CLI
+* py main.py
