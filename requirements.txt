@@ -1,0 +1,5 @@
+-- Make sure the following modules are installed before running this project.
+tkinter
+> pip install tk
+random
+> pip install random 
