@@ -28,7 +28,11 @@ def password_generate(leng):
 
     valid_char = alphabets + alphabets.upper() + numbers + special_char
 
+    empty = '                 '
+    l = Label(window, text = empty, font = ('bold', 15))
+    l.place(x = 190, y = 50)
     password = ''.join(random.sample(valid_char, leng))
+    # l = Label(window, text = password, font = ('bold', 15))
     l = Label(window, text = password, font = ('bold', 15))
     l.place(x = 190, y = 50)
 
